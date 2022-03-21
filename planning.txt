@@ -1,0 +1,3 @@
+style the blackjack table.
+
+style the cards and table actions.
