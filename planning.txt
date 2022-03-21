@@ -25,4 +25,8 @@ II.     Setup of Blackjack Table
         -Cut a Github Branch for Goals section to update Global Team on Blackjack Game Goal.
 
 III.    The Bet
+        1.  Each Player places their Bets points (1-21pts).
+        2.  Create each Player's "Betting Positions", called Boxes. Use the display: grid; css style setting.
+
+        
         
