@@ -1,3 +1,18 @@
 style the blackjack table.
 
 style the cards and table actions.
+
+First assignment is to... Plan out your work, outline, and functions of the Blackjack Game.
+These details should be uploaded into Github. Think about all the logical steps, actions, negates
+that must occur in a COMPUTERIZED Blackjack game. Write an outline for each phase of game. 
+Create small sections of workscope and detail their steps into coded actions.
+Programmatic problem solving.
+
+The Blackjack Game Development Plan
+I.  Goal: Winner will have a hgher total than the Dealer, not to exceed 21, without Busting hand with 
+    a total Hand > 21. 
+    Variables list: Winner, Dealer, Bust, Hand. 
+    Functions list: Hand > 21.
+    Cut a Github Branch for Goals section to update Global Team on Blackjack Game Goal.
+
+II. 
