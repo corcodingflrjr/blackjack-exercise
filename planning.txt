@@ -9,10 +9,20 @@ Create small sections of workscope and detail their steps into coded actions.
 Programmatic problem solving.
 
 The Blackjack Game Development Plan
-I.  Goal: Winner will have a hgher total than the Dealer, not to exceed 21, without Busting hand with 
-    a total Hand > 21. 
-    Variables list: Winner, Dealer, Bust, Hand. 
-    Functions list: Hand > 21.
-    Cut a Github Branch for Goals section to update Global Team on Blackjack Game Goal.
+I.      Goal: Winner will have a higher total than the Dealer, not to exceed 21, without Busting hand with 
+        a total Hand > 21. 
+        -Variables list: Winner, Dealer, Bust, Hand. 
+        -Functions list: Hand > 21, Hand = 21, Hand < 21.
+        -Cut a Github Branch for Goals section to update Global Team on Blackjack Game Goal.
 
-II. 
+II.     Setup of Blackjack Table
+        1.  Game can have from 1-7 Players... Player1, Player2, Player3, Player4, Player5, Player6, Player7
+        2.  Game can have from 1-8 52-Card Decks. (divs in html doc with Classes, divs, for each suit).
+        3.  All Numbered cards (2-10) equal their face value.
+        4.  All Face cards (J,Q,K) equal 10pt value.
+        5.  Ace cards (A) equal 1pt or 11pt value.
+        6.  Perfect hand when Face cards(10pts) + Ace cards(11pts) = 21.
+        -Cut a Github Branch for Goals section to update Global Team on Blackjack Game Goal.
+
+III.    The Bet
+        
