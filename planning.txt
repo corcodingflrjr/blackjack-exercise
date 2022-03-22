@@ -28,5 +28,63 @@ III.    The Bet
         1.  Each Player places their Bets points (1-21pts).
         2.  Create each Player's "Betting Positions", called Boxes. Use the display: grid; css style setting.
 
-        
-        
+IV.     The Initial Deal.
+        1.  The "Dealer Position" deals 2 random cards, with faces up, in front of, each "Player Position"= Player's Bet Box.
+        2.  The Dealer Position THEN GETS 2 cards, 1 facing up, AND, 1 facing down.
+        3.  Deal rotation shall "start", to the left of the "Dealer Position".
+        4.  Show hand and Then display 2 DRAW OPTIONS.
+        5.  Pass thru (while loop), Player Positions to the left of the Dealer Position the option to "Draw More Cards". 
+            Player Position can either: 
+            1) HIT (function for random selection "Draw Card" from an Array that is the Cards Available In Deck)
+               (set of 52 card Objects in a Container Set minus the Total of the Cards In All Hands)
+                a)  Give Player Position a card. minus 1 Cards Available In Deck
+                b)  If Player Position selects HIT again, Give Player Position a card +1.
+                c)  Player Position selects STAND. Stop Give Player Position a card loop.
+            2) STAND
+                a)  The Active "Player Position" Displays STAND.
+
+V.      The HIT.
+            1.  If Player Position Hand + Draw1 = HIT1 < 21, Then allow Player Position to HIT2.
+            2.  If Player Position HIT2 < 21, Then allow Player Position to HITn+1.
+            3.  Stop Add Listener for "Draw Card" when HITn+1 = > 21.
+            4.  If HITn+1 = < 21 AND If Player Position "Draw Card" = No, Then display "STAND" in Player Position.
+            5.  If HITn+1 > 21, Then display "BUST, Sorry for your LOSS! I'll take your Bet please. 
+                Thank you for playing Blackjack with me! You may attempt another winning opportunity by selecting PLAY AGAIN."
+            6.  PLAY AGAIN LOOP? OPTION when after (add listerner for "Bust") BUST display, that displays busted Player Position
+                as New Player Position, replacing Busted Player Position label.
+            7.  If HITn+1 < = 21, Then display "WINNING ALL DAY LONG!!" display confetti background and flash dollar sign background wallpaper.
+
+VI.     The NEXT DEAL PLAYER Position
+            1.  Dealer Position deals, loops to the next left Player Position from the Dealer 
+                (Dealer + 1 until Player Position = Dealer Position).
+            2.  Create a RUN HIT function that runs for each Player Position the Dealer Position Deals to.
+            3.  Display each Player Position Hand/Face Down, and Display each Player Position Bet, and 
+            4.  Display each Player Position Status= STAND or Status= BUST.
+            5.  Stop Next Deal Player Position Loop once Current Player Position = Dealer Position.
+
+VII.    The Dealer Position Turn.
+            1.  RUN HIT function on Dealer Position,
+            2.  Display Dealer Position Hand/Face Up, and Display each Player Position Bet, and 
+            3.  Display each Player Position Status= STAND or Status= BUST.
+            4.  Stop Next Deal Player Position Loop once Current Player Position = Dealer Position.
+              
+VIII.   The Game Loop.
+            1.  Repeat V, VI, VII.
+            2.  If Dealer Position > 21, Then each Player Position Box <= 21, Display AND RUN WIN function.
+                AND Then ALL OTHER Player Positions Display BUST. RUN BUST function.
+            3.  For each Player Position Box <= 21, Display BET BOX being added to Player Position Bank Box
+                AND Display Matching BET BOX going from Dealer Bank Box to Player Position Bank Box.
+
+If Dealer Position(Hand Count) < 21, Total cards AND Player Positiionp1-pn... Then compare Player Position Hand with Dealer Position Hand.
+If Player Position > Dealer Position, Then Player Positionpn WINS! Then Bet Returned to Player Position.
+If Player Position = Dealer Position, Then Player Positionpn option to DRAW OR STAND. 
+If Player Position > 21, Then Player Position BUST! Then Bet Collected by Dealer Position.
+IF Player Position = 21, Then Display PERFECT HAND! and RUN WIN function.
+    -Let Perfect Hand = 1Ace + (1J or 1Q or 1K)=SET named Face Cards.
+    -Let Perfect Hand = BLACKJACK + RUN WIN! function.
+
+
+
+
+
+
