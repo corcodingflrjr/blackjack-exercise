@@ -9,7 +9,9 @@ Create small sections of workscope and detail their steps into coded actions.
 Programmatic problem solving.
 
 The Blackjack Game Development Plan
-I.      Goal: Winner will have a higher total than the Dealer, not to exceed 21, without Busting hand with 
+I.  Begin by reading, reviewing and categorizing initial files related to project. 
+    Research page styling to visualize table layout.       
+        Goal: Winner will have a higher total than the Dealer, not to exceed 21, without Busting hand with 
         a total Hand > 21. 
         -Variables list: Winner, Dealer, Bust, Hand. 
         -Functions list: Hand > 21, Hand = 21, Hand < 21.
